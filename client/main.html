@@ -1,0 +1,203 @@
+<head>
+  <title>Jar4d</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+<main>   
+<div class="container"> 
+  <div class="fixed-action-btn horizontal" style="top: 10px; right: 10px;">
+    <a class="main-button btn-floating btn-medium pink accent-3">
+      <i class="socialIcon fa fa-plus-circle"></i>
+    </a>
+    <ul>
+      <li><a class="btn-floating  purple darken-3 modal-trigger mailmodalbutton" href="#mailmodal"><i class="fa fa-at"></i></a></li>
+      <li><a class="btn-floating  cyan darken-2 modal-trigger cvmodalbutton" href="#cvmodal"><i class="socialIcon fa fa-file-text"></i></a></li>
+      <li><a class="btn-floating  indigo darken-3 modal-trigger aboutmodalbutton" href="#aboutmodal"><i class="socialIcon fa fa-question-circle"></i></a></li>
+    </ul>
+  </div>
+
+      <div class="row">
+          <div class="col s12 left-align">
+                <h1 class="">Hi, I'm Jared.</h1>
+          </div>
+          <div class="col s12 left-align flow-text">
+                <h2 class="">Strategist, brand evengalist, kiteboarder, food nerd and part time manproject engineer. I love hussle, big ideas, clever tech and solving difficult problems. I ride a skateboard I'm probably too old for.</h2>
+          </div>    
+      </div>
+      
+      <div class="row">    
+          <div class="col s12 left-align">
+                <h3>Stalk me.<br></h3>
+          </div>
+
+      <div class="row socialButtonsRow">    
+
+          <div class="col s2 center-align">
+            <a href="https://www.linkedin.com/in/jaredruddy" target="_blank">
+              <i class="socialIcon fa fa-linkedin-square fa-3x"></i>
+              <p class="socialText">Work history</p>
+            </a> 
+          </div>
+
+          <div class="col s2 center-align">
+            <a href="http://www.twitter.com/jar4d" target="_blank">
+              <i class="socialIcon fa fa-twitter-square fa-3x"></i>
+              <p class="socialText">Tweets</p>
+            </a> 
+          </div>          
+
+          <div class="col s2 center-align">
+          <a href="http://www.instagram.com/jar4d" target="_blank">
+            <i class="socialIcon fa fa-instagram fa-3x"></i>
+            <p class="socialText">Snaps</p>
+          </a> 
+          </div>          
+
+          <div class="col s2 center-align">
+          <a href="https://jar4d.github.io/" target="_blank">
+            <i class="socialIcon fa fa-github fa-3x"></i>
+            <p class="socialText">Kitchen table projects</p>
+          </a>           
+          </div>
+
+          <div class="col s2 center-align">
+          <a href="https://medium.com/@jar4d" target="_blank">
+            <i class="socialIcon fa fa-medium fa-3x"></i>
+            <p class="socialText">Musings</p>
+          </a>   
+          </div>          
+
+          <div class="col s2 center-align">
+          <a class="modal-trigger mailmodalbutton" href="#mailmodal"> 
+            <i class="socialIcon fa fa-asterisk fa-3x"></i>
+            <p class="socialText">Ask me</p>
+          </a>   
+          </div>      
+        </div>
+        </div>
+</div>
+</main>
+
+
+
+  <!-- Modal Structure -->
+  <div id="mailmodal" class="modal">
+    <div class="modal-content">
+
+      <div class="row">
+      <div class="col s12">
+      <h4>Get in touch</h4>
+      <p>Go on, make my day.</p>
+      </div>
+        <form class="col s12" name="mailform">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="firstname" type="text">
+              <label for="firstname">First name</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="lastname" type="text">
+              <label for="lastname">Last name</label>
+            </div>
+          </div>          
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+          </div>          
+
+          <div class="row">
+          <div class="col s12">
+            <button type="submit" class="btn indigo">Submit</button>
+
+          </div>
+
+
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="cvmodal" class="modal">
+    <div class="modal-content">
+
+      <div class="row">
+      <div class="col s12">
+      <h4>Request my CV</h4>
+      <p></p>
+      </div>
+        <form class="col s12" name="cvform">
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col s12">
+            <button type="submit" class="btn indigo">Request my CV</button>
+
+          </div>
+
+
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="aboutmodal" class="modal">
+    <div class="modal-content">
+
+      <div class="row">
+          <div class="col s4">
+                    <img src="profile.jpg" alt="profile image" class="circle z-depth-2 responsive-img activator">
+          </div>
+          <div class="col s8">
+              <h4>Hey there</h4>
+              <p class="flow-text">This site is an attempt to organise my brain. 
+              <br>
+              You'll find my work history, feeds and a series of projects that have occupied my mind. I've included source files should you want to try them out for yourself too.
+              <br>
+              
+              <br>
+              <b>Coffee?</b><br>
+              My is focus helping people and brands to solve big problems using clever thinking and new technology. I mentor a few startups, have helped organisations kick-off incubator programmes and am always on the lookout for the perfect next role. I have a curious mind and love a chat, so don't hesitate to get in touch. 
+              </p>
+          </div>       
+
+
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+</body>
